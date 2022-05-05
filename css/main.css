@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #A9A9A9;
+}
+
+section.todo {
+  width: 700px;
+  padding: 25px;
+  margin: 25px auto;
+  text-align: center;
+  background-color: #fbfbfb;
+  border-radius: 30px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+section.todo > h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #B22222;
+}
+
+section.task_box {
+  padding: 10px;
+  border: 1px solid #DCDCDC;
+}
+
+section.task_box > input.gorev {
+  display: inline-block;
+  margin-top: 15px;
+  width: 65%;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 30px;
+  border: 1px solid #DCDCDC;
+}
+
+section.task_box > button {
+  margin-top: 15px;
+  display: inline-block;
+  width: 65%;
+  height: 50px;
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid #DCDCDC;
+  font-size: 20px;
+  cursor: pointer;
+  color: #DCDCDC;
+  background-color: #4682B4;
+}
+
+section.task_box > h2 {
+  font-size: 35px;
+  border-radius: 30px;
+  background-color: #DCDCDC;
+}
+
+section.task_box > input#date {
+  display: inline-block;
+  margin-top: 15px;
+  width: 65%;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 30px;
+  border: 1px solid #DCDCDC;
+}
+
+section.task_list {
+  margin-top: 25px;
+  padding: 10px;
+  border: 1px solid #DCDCDC;
+  box-sizing: border-box;
+}
+
+section.task_list > h2 {
+  width: 85%;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 35px;
+  border-radius: 30px;
+  background-color: #DCDCDC;
+}
+
+section.task_list > button#clear {
+  display: inline-block;
+  width: 10%;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #DCDCDC;
+  background-color: #4682B4;
+}
+
+section.task_box aside {
+  margin: 20px 0 0 0;
+  padding: 15px;
+  font-size: 19px;
+  color: #B22222;
+  border-radius: 30px;
+}
+
+section.task_list table {
+  width: 100%;
+}
